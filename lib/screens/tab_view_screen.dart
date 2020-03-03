@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:foodi_app/screens/favorites_screen.dart';
+//import 'package:foodi_app/screens/favorites_screen.dart';
 
 import 'category_overview_screen.dart';
 
@@ -31,7 +31,7 @@ class _TabViewScreenState extends State<TabViewScreen> {
         body: TabBarView(
           children: <Widget>[
             CategoryOverviewScreen(),
-            FavouritesScreen(),
+//            FavouritesScreen(),
           ],
         ),
       ),
